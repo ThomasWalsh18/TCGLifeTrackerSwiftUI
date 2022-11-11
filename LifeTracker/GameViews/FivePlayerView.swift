@@ -13,9 +13,6 @@ struct FivePlayerView: View {
     var body: some View {
         HStack {
             VStack{
-                NavigationLink(destination: GameModeMenu()) {
-                         Image(systemName: "person.circle").resizable()
-                      }
                 LifeTrackerUI(startingLife: startingLifeTotal, backgroundColor: .indigo, internalRotation: 90)
                 LifeTrackerUI(startingLife: startingLifeTotal, backgroundColor: .green, internalRotation: 90)
             }
