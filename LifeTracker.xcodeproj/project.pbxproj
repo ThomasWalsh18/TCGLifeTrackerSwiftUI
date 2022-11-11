@@ -1,0 +1,388 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FE05602A291A8FF8001146F4 /* LifeTrackerUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE056029291A8FF8001146F4 /* LifeTrackerUI.swift */; };
+		FE05602D291A9344001146F4 /* TwoPlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE05602C291A9344001146F4 /* TwoPlayerView.swift */; };
+		FE05602F291A944B001146F4 /* OnePlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE05602E291A944B001146F4 /* OnePlayerView.swift */; };
+		FE056031291A94B0001146F4 /* ThreePlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE056030291A94B0001146F4 /* ThreePlayerView.swift */; };
+		FE056033291ABB41001146F4 /* FourPlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE056032291ABB41001146F4 /* FourPlayerView.swift */; };
+		FE056037291D5DAA001146F4 /* GameModeMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE056036291D5DAA001146F4 /* GameModeMenu.swift */; };
+		FE05603B291E863F001146F4 /* HealthModeMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE05603A291E863F001146F4 /* HealthModeMenu.swift */; };
+		FE05603D291E8986001146F4 /* FivePlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE05603C291E8986001146F4 /* FivePlayerView.swift */; };
+		FE7D8582291408B200D3EA3E /* LifeTrackerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE7D8581291408B200D3EA3E /* LifeTrackerApp.swift */; };
+		FE7D8584291408B200D3EA3E /* MainGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE7D8583291408B200D3EA3E /* MainGame.swift */; };
+		FE7D8586291408B300D3EA3E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FE7D8585291408B300D3EA3E /* Assets.xcassets */; };
+		FE7D8589291408B300D3EA3E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FE7D8588291408B300D3EA3E /* Preview Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FE056029291A8FF8001146F4 /* LifeTrackerUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LifeTrackerUI.swift; sourceTree = "<group>"; };
+		FE05602C291A9344001146F4 /* TwoPlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwoPlayerView.swift; sourceTree = "<group>"; };
+		FE05602E291A944B001146F4 /* OnePlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnePlayerView.swift; sourceTree = "<group>"; };
+		FE056030291A94B0001146F4 /* ThreePlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThreePlayerView.swift; sourceTree = "<group>"; };
+		FE056032291ABB41001146F4 /* FourPlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FourPlayerView.swift; sourceTree = "<group>"; };
+		FE056036291D5DAA001146F4 /* GameModeMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameModeMenu.swift; sourceTree = "<group>"; };
+		FE05603A291E863F001146F4 /* HealthModeMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthModeMenu.swift; sourceTree = "<group>"; };
+		FE05603C291E8986001146F4 /* FivePlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FivePlayerView.swift; sourceTree = "<group>"; };
+		FE7D857E291408B200D3EA3E /* LifeTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LifeTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE7D8581291408B200D3EA3E /* LifeTrackerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LifeTrackerApp.swift; sourceTree = "<group>"; };
+		FE7D8583291408B200D3EA3E /* MainGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainGame.swift; sourceTree = "<group>"; };
+		FE7D8585291408B300D3EA3E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FE7D8588291408B300D3EA3E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FE7D857B291408B200D3EA3E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FE05602B291A9240001146F4 /* GameViews */ = {
+			isa = PBXGroup;
+			children = (
+				FE05602C291A9344001146F4 /* TwoPlayerView.swift */,
+				FE05602E291A944B001146F4 /* OnePlayerView.swift */,
+				FE056030291A94B0001146F4 /* ThreePlayerView.swift */,
+				FE056032291ABB41001146F4 /* FourPlayerView.swift */,
+				FE05603C291E8986001146F4 /* FivePlayerView.swift */,
+			);
+			path = GameViews;
+			sourceTree = "<group>";
+		};
+		FE7D8575291408B200D3EA3E = {
+			isa = PBXGroup;
+			children = (
+				FE7D8580291408B200D3EA3E /* LifeTracker */,
+				FE7D857F291408B200D3EA3E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FE7D857F291408B200D3EA3E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FE7D857E291408B200D3EA3E /* LifeTracker.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FE7D8580291408B200D3EA3E /* LifeTracker */ = {
+			isa = PBXGroup;
+			children = (
+				FE05602B291A9240001146F4 /* GameViews */,
+				FE7D8581291408B200D3EA3E /* LifeTrackerApp.swift */,
+				FE7D8583291408B200D3EA3E /* MainGame.swift */,
+				FE7D8585291408B300D3EA3E /* Assets.xcassets */,
+				FE7D8587291408B300D3EA3E /* Preview Content */,
+				FE056029291A8FF8001146F4 /* LifeTrackerUI.swift */,
+				FE056036291D5DAA001146F4 /* GameModeMenu.swift */,
+				FE05603A291E863F001146F4 /* HealthModeMenu.swift */,
+			);
+			path = LifeTracker;
+			sourceTree = "<group>";
+		};
+		FE7D8587291408B300D3EA3E /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				FE7D8588291408B300D3EA3E /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FE7D857D291408B200D3EA3E /* LifeTracker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FE7D858C291408B300D3EA3E /* Build configuration list for PBXNativeTarget "LifeTracker" */;
+			buildPhases = (
+				FE7D857A291408B200D3EA3E /* Sources */,
+				FE7D857B291408B200D3EA3E /* Frameworks */,
+				FE7D857C291408B200D3EA3E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LifeTracker;
+			productName = LifeTracker;
+			productReference = FE7D857E291408B200D3EA3E /* LifeTracker.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FE7D8576291408B200D3EA3E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					FE7D857D291408B200D3EA3E = {
+						CreatedOnToolsVersion = 14.0.1;
+					};
+				};
+			};
+			buildConfigurationList = FE7D8579291408B200D3EA3E /* Build configuration list for PBXProject "LifeTracker" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FE7D8575291408B200D3EA3E;
+			productRefGroup = FE7D857F291408B200D3EA3E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FE7D857D291408B200D3EA3E /* LifeTracker */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FE7D857C291408B200D3EA3E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE7D8589291408B300D3EA3E /* Preview Assets.xcassets in Resources */,
+				FE7D8586291408B300D3EA3E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FE7D857A291408B200D3EA3E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE056031291A94B0001146F4 /* ThreePlayerView.swift in Sources */,
+				FE056037291D5DAA001146F4 /* GameModeMenu.swift in Sources */,
+				FE05603B291E863F001146F4 /* HealthModeMenu.swift in Sources */,
+				FE05602D291A9344001146F4 /* TwoPlayerView.swift in Sources */,
+				FE7D8584291408B200D3EA3E /* MainGame.swift in Sources */,
+				FE056033291ABB41001146F4 /* FourPlayerView.swift in Sources */,
+				FE05602F291A944B001146F4 /* OnePlayerView.swift in Sources */,
+				FE05603D291E8986001146F4 /* FivePlayerView.swift in Sources */,
+				FE7D8582291408B200D3EA3E /* LifeTrackerApp.swift in Sources */,
+				FE05602A291A8FF8001146F4 /* LifeTrackerUI.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		FE7D858A291408B300D3EA3E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FE7D858B291408B300D3EA3E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FE7D858D291408B300D3EA3E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"LifeTracker/Preview Content\"";
+				DEVELOPMENT_TEAM = 7679NNCQ9Y;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "TCG Life Tracker";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = net.test.LifeTracker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FE7D858E291408B300D3EA3E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"LifeTracker/Preview Content\"";
+				DEVELOPMENT_TEAM = 7679NNCQ9Y;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "TCG Life Tracker";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = net.test.LifeTracker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FE7D8579291408B200D3EA3E /* Build configuration list for PBXProject "LifeTracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE7D858A291408B300D3EA3E /* Debug */,
+				FE7D858B291408B300D3EA3E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FE7D858C291408B300D3EA3E /* Build configuration list for PBXNativeTarget "LifeTracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE7D858D291408B300D3EA3E /* Debug */,
+				FE7D858E291408B300D3EA3E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FE7D8576291408B200D3EA3E /* Project object */;
+}
