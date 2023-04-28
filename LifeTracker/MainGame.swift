@@ -11,6 +11,8 @@ struct MainGame: View {
     var playerCount : Int
     var startingHealth: Int
     
+    @Environment(\.presentationMode) var mode: Binding<PresentationMode>
+    
     var body: some View {
         ZStack{
             Color.black
@@ -36,8 +38,17 @@ struct MainGame: View {
                 //Image(systemName: "gear.circle")
                     
             }
-        }
-        .navigationBarHidden(true)
+        }.navigationBarTitleDisplayMode(.inline)
+        //.navigationBarHidden(true)
+        /*
+        .navigationBarBackButtonHidden(true)
+        .navigationBarItems(leading:
+                                Button(action : {
+            self.mode.wrappedValue.dismiss()
+        }){
+            Image(systemName: "arrow.left")
+        })
+         */
     }
 }
 

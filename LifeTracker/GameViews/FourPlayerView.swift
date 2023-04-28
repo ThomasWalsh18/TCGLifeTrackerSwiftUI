@@ -11,7 +11,7 @@ struct FourPlayerView : View {
     let startingLifeTotal: Int
 
     var body: some View {
-        VStack {
+        VStack(spacing: 8) {
             HStack{
                 LifeTrackerUI(startingLife: startingLifeTotal, backgroundColor: .indigo, internalRotation: 90)
                 LifeTrackerUI(startingLife: startingLifeTotal, backgroundColor: .red, internalRotation: -90)
@@ -21,5 +21,11 @@ struct FourPlayerView : View {
                 LifeTrackerUI(startingLife: startingLifeTotal, backgroundColor: .orange, internalRotation: -90)
             }
         }.padding()
+    }
+}
+
+struct Previews_FourPlayerView_Previews: PreviewProvider {
+    static var previews: some View {
+        FourPlayerView(startingLifeTotal: 40)
     }
 }

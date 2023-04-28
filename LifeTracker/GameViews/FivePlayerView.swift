@@ -12,11 +12,11 @@ struct FivePlayerView: View {
     
     var body: some View {
         HStack {
-            VStack{
+            VStack(spacing: 8){
                 LifeTrackerUI(startingLife: startingLifeTotal, backgroundColor: .indigo, internalRotation: 90)
                 LifeTrackerUI(startingLife: startingLifeTotal, backgroundColor: .green, internalRotation: 90)
             }
-            VStack{
+            VStack(spacing: 8){
                 LifeTrackerUI(startingLife: startingLifeTotal, backgroundColor: .red, internalRotation: -90)
                 LifeTrackerUI(startingLife: startingLifeTotal, backgroundColor: .orange, internalRotation: -90)
                 LifeTrackerUI(startingLife: startingLifeTotal, backgroundColor: .cyan, internalRotation: -90)

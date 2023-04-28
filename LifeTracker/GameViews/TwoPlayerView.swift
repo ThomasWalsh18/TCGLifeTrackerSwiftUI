@@ -11,10 +11,16 @@ struct TwoPlayerView : View {
     let startingLifeTotal: Int
 
     var body: some View {
-        VStack {
+        VStack(spacing: 8) {
             LifeTrackerUI(startingLife: startingLifeTotal, backgroundColor: .indigo, internalRotation: 180)
             LifeTrackerUI(startingLife: startingLifeTotal, backgroundColor: .red)
         }
         .padding()
+    }
+}
+
+struct Previews_TwoPlayerView_Previews: PreviewProvider {
+    static var previews: some View {
+        TwoPlayerView(startingLifeTotal: 40)
     }
 }

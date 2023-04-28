@@ -10,7 +10,7 @@ import SwiftUI
 struct LifeTrackerUI: View {
     @State public var life: Int
     public let backgroundColor: Color
-    private var interalRotation : Double
+    private var internalRotation : Double
     
     @State private var timer: Timer?
     @State var isLongPressing = false
@@ -18,7 +18,7 @@ struct LifeTrackerUI: View {
     init(startingLife: Int, backgroundColor: Color, internalRotation: Double = 0){
         self.life = startingLife
         self.backgroundColor = backgroundColor
-        self.interalRotation = internalRotation
+        self.internalRotation = internalRotation
     }
     
     var body: some View {
@@ -46,7 +46,6 @@ struct LifeTrackerUI: View {
                 }
             }.tint(.gray)
                     .simultaneousGesture(DragGesture().onEnded{ _ in
-                        self.isLongPressing.toggle()
                         self.timer?.invalidate()
                     })
                     .simultaneousGesture(LongPressGesture(minimumDuration: 0.5).onEnded { _ in
@@ -75,7 +74,6 @@ struct LifeTrackerUI: View {
                 }
             }.tint(.gray)
                     .simultaneousGesture(DragGesture().onEnded{ _ in
-                        self.isLongPressing.toggle()
                         self.timer?.invalidate()
                     })
                     .simultaneousGesture(LongPressGesture(minimumDuration: 0.5).onEnded { _ in
@@ -84,13 +82,13 @@ struct LifeTrackerUI: View {
                             self.life -= 10
                         })
                     })
-            }.rotationEffect(.degrees(interalRotation))
+            }.rotationEffect(.degrees(internalRotation))
             
             Text("\(life)").font(.system(size: 100, weight: .heavy, design: .rounded))
                 .foregroundColor(.white)
-            .rotationEffect(.degrees(interalRotation))
+            .rotationEffect(.degrees(internalRotation))
             
-        }.padding()
+        }
     }
 }
 
